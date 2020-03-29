@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DATAFIGHTER -- PLAY</title>
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400italic,500,500italic,700,700italic|Roboto:400,400italic,500,500italic,700,700italic"
+    rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/game.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+  <script src="js/game.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div id="stage">
+    <div id="container">
+      <div id="gameContainer">
+        <div id="gameHeader">
+          <div class="left questions">
+            <div class="container"><i class="fa fa-quote-left" style="font-size: 2.0em;
+              margin-right: 0.4em;
+              color: #c14017;"> </i><span></span></div>
+          </div>
+          <div class="left timer">
+            <div class="container">TIME: <span></span></div>
+          </div>
+          <div class="left score">
+            <div class="container">SCORE: <span></span></div>
+          </div>
+        </div>
+        <div id="gameChoices">
+          <div class="row">
+            <div class="left half">
+              <div class="container"><button id="buttonOne" data-index="0"></button></div>
+            </div>
+            <div class="left half">
+              <div class="container"><button id="buttonTwo" data-index="1"></button></div>
+            </div>
+          </div>
+        </div>
+        <h1 id="title">DATAFIGHTER</h1>
+      </div>
+      <button id="startButton">START</button>
+    </div>
+  </div>
+  <div id="modal_window">
+    <div class="modal_message">
+      <p></p>
+    </div>
+</body>
+
+</html>
